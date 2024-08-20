@@ -30,11 +30,11 @@ export default function LoginScreen() {
 
           {/* form */}
           <View className='flex items-center pt-10  mx-4 space-y-4'>
-           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/5 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Email' placeholderTextColor={'gray'} />
+           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/10 p-5 rounded-2x1 w-full">
+          <TextInput placeholder='Email' placeholderTextColor={'black'} />
           </Animated.View>
-          <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/5 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Enter your password' placeholderTextColor={'gray'} secureTextEntry />
+          <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/10 p-5 rounded-2xl w-full">
+          <TextInput placeholder='Enter your password' placeholderTextColor={'black'} secureTextEntry />
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="flex mb-4">
           <TouchableOpacity >
@@ -44,14 +44,14 @@ export default function LoginScreen() {
           
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="w-full">
             <TouchableOpacity 
-            className="w-full bg-sky-600 p-3 rounded-2xl mb-3">
+            className="w-full bg-emerald-700 p-3 rounded-2xl mb-3">
               <Text className="text-xl font-semibold text-white text-center">login</Text>
             </TouchableOpacity>
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="flex-row">
             <Text classNam="font-semibold">Don't have an account: </Text>
             <TouchableOpacity onPress={() => navigation.push('signup')}>
-              <Text className="text-sky-800 font-semibold">SignUp</Text>
+              <Text className="text-emerald-900 font-semibold">SignUp</Text>
             </TouchableOpacity>
           </Animated.View>
           </View>
