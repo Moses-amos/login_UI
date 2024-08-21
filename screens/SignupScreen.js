@@ -23,14 +23,14 @@ export default function SignupScreen() {
 
           {/* form */}
           <View className='flex items-center mx-4 pt-10 space-y-4'>
-           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/10 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Email' placeholderTextColor={'gray'} />
+           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full">
+          <TextInput placeholder='Email' placeholderTextColor={'black'} />
           </Animated.View>
-          <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/10 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Enter your password' placeholderTextColor={'gray'} />
+          <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full">
+          <TextInput placeholder='Enter your password' placeholderTextColor={'black'} />
           </Animated.View>
-          <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/10 p-5 rounded-2xl w-full mb-3">
-          <TextInput placeholder='Confirm your password' placeholderTextColor={'gray'} secureTextEntry />
+          <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full mb-3">
+          <TextInput placeholder='Confirm your password' placeholderTextColor={'black'} secureTextEntry />
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="w-full">
             <TouchableOpacity 
