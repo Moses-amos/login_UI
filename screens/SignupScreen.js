@@ -24,13 +24,13 @@ export default function SignupScreen() {
           {/* form */}
           <View className='flex items-center mx-4 pt-10 space-y-4'>
            <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Email' placeholderTextColor={'black'} />
+          <TextInput placeholder='Email' placeholderTextColor={'black'} className="text-lg" />
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Enter your password' placeholderTextColor={'black'} />
+          <TextInput placeholder='Enter your password' placeholderTextColor={'black'} className="text-lg" />
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full mb-3">
-          <TextInput placeholder='Confirm your password' placeholderTextColor={'black'} secureTextEntry />
+          <TextInput placeholder='Confirm your password' placeholderTextColor={'black'} className="text-lg" secureTextEntry />
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="w-full">
             <TouchableOpacity 
@@ -45,12 +45,8 @@ export default function SignupScreen() {
             </TouchableOpacity>
           </Animated.View>
           </View>
-          
-
+    
         </View>
-
-
-
     </View>
   )
 }

@@ -25,10 +25,10 @@ export default function LoginScreen() {
           {/* form */}
           <View className='flex items-center pt-10  mx-4 space-y-4'>
            <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Email' placeholderTextColor={'black'} />
+          <TextInput placeholder='Email' placeholderTextColor={'black'} className="text-lg" />
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/20 p-5 rounded-2xl w-full">
-          <TextInput placeholder='Enter your password' placeholderTextColor={'black'} secureTextEntry />
+          <TextInput placeholder='Enter your password' placeholderTextColor={'black'} className="text-lg" secureTextEntry />
           </Animated.View>
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="flex mb-4">
           <TouchableOpacity >
